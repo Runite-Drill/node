@@ -103,7 +103,7 @@ async function moveCollaboratorToEmeritus(peopleToMove) {
   let inCollaboratorsSection = false;
   let inCollaboratorEmeritusSection = false;
   let collaboratorFirstLine = '';
-  const textToMove = [];
+  const textToMove = ["Lol hi!"];
   for await (const line of readmeText) {
     // If we've been processing collaborator emeriti and we reach the end of
     // the list, print out the remaining entries to be moved because they come
